@@ -31,28 +31,26 @@ CAMS framework for service provider
 
 #Install แบบไม่มีอะไร
 
-##[sails.js](http://sailsjs.org/)
-ลงโปรแกรมตาม [link](https://github.com/balderdashy/sails-docs/blob/master/getting-started/getting-started.md)
-
-##[gulp.js](http://gulpjs.com/)
-1. ลงโปรแกรมตาม [1 และ 2](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
-2. ลงโปรแกรมตาม [sails-generate-gulpfile](https://github.com/Karnith/sails-generate-gulpfile)
-
-##[AngularJS](https://angularjs.org/)
-1. ดู [tutorial](http://ghost-parnurzeal.rhcloud.com/sails-js-angularjs-bower-mocha/)
-2. clone [angular-seed](https://github.com/angular/angular-seed)
-
-* [generator-m](https://github.com/mwaylabs/generator-m)
+##Dev
+* [gulp.js](http://gulpjs.com/)
+  1. ลงโปรแกรมตาม [1 และ 2](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
+  2. ลงโปรแกรมตาม [sails-generate-gulpfile](https://github.com/Karnith/sails-generate-gulpfile)
+* [Less](http://lesscss.org/) ลงโปรแกรมตาม [link](http://lesscss.org/)
+* [sails-js-angularjs-bower-mocha](http://ghost-parnurzeal.rhcloud.com/sails-js-angularjs-bower-mocha/)
 
 ##Server
 * [sails.js](http://sailsjs.org/) ลงโปรแกรมตาม [link](https://github.com/balderdashy/sails-docs/blob/master/getting-started/getting-started.md)
+
 ##Client
+* [AngularJS](https://angularjs.org/)
 * [Angular Cordova](http://ngcordova.com/)
 * [ionic framework](http://ionicframework.com/)
 * [Angulartics](http://luisfarzati.github.io/angulartics/)
-##Dev
-##[Less](http://lesscss.org/)
-ลงโปรแกรมตาม [link](http://lesscss.org/)
+
+##Generator
+* ดู [tutorial](http://ghost-parnurzeal.rhcloud.com/sails-js-angularjs-bower-mocha/)
+* clone [angular-seed](https://github.com/angular/angular-seed)
+* [generator-m](https://github.com/mwaylabs/generator-m)
 
 ##Testing
 * [karma](http://karma-runner.github.io/0.12/index.html)
