@@ -21,6 +21,15 @@ CAMS framework for service provider
 ##[Cordova](http://cordova.apache.org/)
 ลงโปรแกรมที่จำเป็นตาม [Cordova CLI](http://cordova.apache.org/docs/en/4.0.0//guide_cli_index.md.html#The%20Command-Line%20Interface)
 
+##[Google Web Starter Kit](https://developers.google.com/web/starter-kit/)
+* [gulp.js](http://gulpjs.com/)
+* [run-sequence](https://github.com/OverZealous/run-sequence)
+* [gulp-load-plugins](https://github.com/jackfranklin/gulp-load-plugins)
+* [gulp-imagemin](https://github.com/sindresorhus/gulp-imagemin)
+* [jshint](http://www.jshint.com/)
+* [PageSpeed Insights](https://github.com/addyosmani/psi)
+* [browsersync](http://www.browsersync.io/)
+
 ##[Eclipse](https://eclipse.org)
 1. [eclipse](https://www.eclipse.org/downloads/)
 2. [egit](http://www.eclipse.org/egit/)
@@ -31,7 +40,7 @@ CAMS framework for service provider
 #Install แบบไม่มีอะไร
 
 ##Dev
-* [gulp.js](http://gulpjs.com/)
+* 
   1. ลงโปรแกรมตาม [1 และ 2](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
   2. ลงโปรแกรมตาม [sails-generate-gulpfile](https://github.com/Karnith/sails-generate-gulpfile)
 * [Less](http://lesscss.org/) ลงโปรแกรมตาม [link](http://lesscss.org/)
@@ -63,3 +72,6 @@ CAMS framework for service provider
 * [appium](http://appium.io/)
 * [istanbul](http://gotwarlost.github.io/istanbul/)
 * [browsersync](http://www.browsersync.io/)
+
+#Addition Info
+* [Google Web Fundamentals](https://developers.google.com/web/fundamentals/)
