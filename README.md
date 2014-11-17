@@ -41,13 +41,27 @@ CAMS framework for service provider
 ##[AngularJS](https://angularjs.org/)
 1. ดู [tutorial](http://ghost-parnurzeal.rhcloud.com/sails-js-angularjs-bower-mocha/)
 2. clone [angular-seed](https://github.com/angular/angular-seed)
-3. ลงโปรแกรมตาม [Protractor's tutorial](http://angular.github.io/protractor/#/tutorial)
- 
-##[Cordova](http://cordova.apache.org/)
-1. [Angular Cordova](http://ngcordova.com/)
-2. [ionic framework](http://ionicframework.com/)
-3. [generator-m](https://github.com/mwaylabs/generator-m)
 
+* [generator-m](https://github.com/mwaylabs/generator-m)
+
+##Server
+* [sails.js](http://sailsjs.org/) ลงโปรแกรมตาม [link](https://github.com/balderdashy/sails-docs/blob/master/getting-started/getting-started.md)
+##Client
+* [Angular Cordova](http://ngcordova.com/)
+* [ionic framework](http://ionicframework.com/)
+* [Angulartics](http://luisfarzati.github.io/angulartics/)
+##Dev
 ##[Less](http://lesscss.org/)
 ลงโปรแกรมตาม [link](http://lesscss.org/)
 
+##Testing
+* [karma](http://karma-runner.github.io/0.12/index.html)
+* [mocha](http://mochajs.org/)
+* [chai](http://chaijs.com/)
+* [PhantomJS](http://phantomjs.org/)
+* [sinon](http://sinonjs.org/)
+* [protractor](http://angular.github.io/protractor/) ลงโปรแกรมตาม [Protractor's tutorial](http://angular.github.io/protractor/#/tutorial)
+* [selenium](http://www.seleniumhq.org/)
+* [appium](http://appium.io/)
+* [istanbul](http://gotwarlost.github.io/istanbul/)
+* [browsersync](http://www.browsersync.io/)
