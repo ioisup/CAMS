@@ -16,8 +16,7 @@ CAMS framework for service provider
 ลงโปรแกรมตาม [link](http://nodejs.org/)
 
 ##[Mongodb](http://www.mongodb.org/)
-1. ลงโปรแกรมจาก [ที่นี่](http://docs.mongodb.org/manual/installation/)
-2. ลงโปรแกรมจาก [ที่นี่](https://github.com/balderdashy/sails-mongo)
+ลงโปรแกรมจาก [ที่นี่](http://docs.mongodb.org/manual/installation/)
 
 ##[Cordova](http://cordova.apache.org/)
 ลงโปรแกรมที่จำเป็นตาม [Cordova CLI](http://cordova.apache.org/docs/en/4.0.0//guide_cli_index.md.html#The%20Command-Line%20Interface)
@@ -40,6 +39,7 @@ CAMS framework for service provider
 
 ##Server
 * [sails.js](http://sailsjs.org/) ลงโปรแกรมตาม [link](https://github.com/balderdashy/sails-docs/blob/master/getting-started/getting-started.md)
+* ลงโปรแกรมจาก [ที่นี่](https://github.com/balderdashy/sails-mongo)
 
 ##Client
 * [AngularJS](https://angularjs.org/)
