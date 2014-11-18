@@ -3,6 +3,7 @@ CAMS
 
 CAMS framework for service provider
 
+a [Sails](http://sailsjs.org) application
 ======
 
 - [Cordova](http://cordova.apache.org/)
