@@ -12,6 +12,7 @@
  * Check out the `tasks` directory instead.
  */
 var gulp = require('gulp'),
+	browserSync = require('browser-sync'),
 	plugins = require('gulp-load-plugins')({
 						pattern: ['gulp-*', 'merge-*', 'run-*', 'main-*'], // the glob to search for
 						replaceString: /\bgulp[\-.]|run[\-.]|merge[\-.]|main[\-.]/, // what to remove from the name of the module when adding it to the context
