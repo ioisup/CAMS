@@ -50,6 +50,7 @@ a [Sails](http://sailsjs.org) application
 ##Server
 * [sails.js](http://sailsjs.org/) ลงโปรแกรมตาม [link](https://github.com/balderdashy/sails-docs/blob/master/getting-started/getting-started.md)
 * ลงโปรแกรมจาก [ที่นี่](https://github.com/balderdashy/sails-mongo)
+* [forever](https://github.com/nodejitsu/forever)
 
 ##Client
 * [AngularJS](https://angularjs.org/)
