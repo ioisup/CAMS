@@ -41,6 +41,9 @@ a [Sails](http://sailsjs.org) application
 5. [THyM](http://www.eclipse.org/thym/)
 6. [AngularJS](https://github.com/angelozerr/angularjs-eclipse)
 7. [Nodeclipse](http://www.nodeclipse.org/)
+8. [Tooltip error problem](http://stackoverflow.com/questions/10710190/eclipse-pdt-tooltip-shows-html-tags-and-css-inside-it) 
+
+  > sudo apt-get install libwebkitgtk-1.0-0
 
 #Install แบบไม่มีอะไร
 
