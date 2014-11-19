@@ -39,6 +39,8 @@ a [Sails](http://sailsjs.org) application
 4. [Javascript Development Tools](https://eclipse.org/webtools/jsdt/)
 5. [LESS](http://www.normalesup.org/~simonet/soft/ow/eclipse-less.en.html)
 5. [THyM](http://www.eclipse.org/thym/)
+6. [AngularJS](https://github.com/angelozerr/angularjs-eclipse)
+7. [Nodeclipse](http://www.nodeclipse.org/)
 
 #Install แบบไม่มีอะไร
 
