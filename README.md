@@ -38,12 +38,13 @@ a [Sails](http://sailsjs.org) application
 3. [Web Tools Platform](http://www.eclipse.org/webtools/)
 4. [Javascript Development Tools](https://eclipse.org/webtools/jsdt/)
 5. [LESS](http://www.normalesup.org/~simonet/soft/ow/eclipse-less.en.html)
-5. [THyM](http://www.eclipse.org/thym/)
-6. [AngularJS](https://github.com/angelozerr/angularjs-eclipse)
-7. [Nodeclipse](http://www.nodeclipse.org/)
-8. [Tooltip error problem](http://stackoverflow.com/questions/10710190/eclipse-pdt-tooltip-shows-html-tags-and-css-inside-it) 
+6. [THyM](http://www.eclipse.org/thym/)
+7. [AngularJS](https://github.com/angelozerr/angularjs-eclipse)
+8. [Nodeclipse](http://www.nodeclipse.org/)
+9. [Tooltip error problem](http://stackoverflow.com/questions/10710190/eclipse-pdt-tooltip-shows-html-tags-and-css-inside-it)
 
   > sudo apt-get install libwebkitgtk-1.0-0
+10. [Practical AngularJS](https://leanpub.com/Practical_AngularJS/read)
 
 #Install แบบไม่มีอะไร
 
