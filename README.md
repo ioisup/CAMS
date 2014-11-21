@@ -30,18 +30,26 @@ a [Sails](http://sailsjs.org) application
 * [jshint](http://www.jshint.com/)
 * [PageSpeed Insights](https://github.com/addyosmani/psi)
 * [browsersync](http://www.browsersync.io/)
+* [glup-less](https://github.com/plus3network/gulp-less)
 
 ##[Eclipse](https://eclipse.org)
 1. [eclipse](https://www.eclipse.org/downloads/)
 2. [egit](http://www.eclipse.org/egit/)
 3. [Web Tools Platform](http://www.eclipse.org/webtools/)
 4. [Javascript Development Tools](https://eclipse.org/webtools/jsdt/)
-5. [THyM](http://www.eclipse.org/thym/)
+5. [LESS](http://www.normalesup.org/~simonet/soft/ow/eclipse-less.en.html)
+6. [THyM](http://www.eclipse.org/thym/)
+7. [AngularJS](https://github.com/angelozerr/angularjs-eclipse)
+8. [Nodeclipse](http://www.nodeclipse.org/)
+9. [Tooltip error problem](http://stackoverflow.com/questions/10710190/eclipse-pdt-tooltip-shows-html-tags-and-css-inside-it)
+
+  > sudo apt-get install libwebkitgtk-1.0-0
+10. [Practical AngularJS](https://leanpub.com/Practical_AngularJS/read)
 
 #Install แบบไม่มีอะไร
 
 ##Dev
-* 
+* sails
   1. ลงโปรแกรมตาม [1 และ 2](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
   2. ลงโปรแกรมตาม [sails-generate-gulpfile](https://github.com/Karnith/sails-generate-gulpfile)
 * [Less](http://lesscss.org/) ลงโปรแกรมตาม [link](http://lesscss.org/)
@@ -73,7 +81,30 @@ a [Sails](http://sailsjs.org) application
 * [selenium](http://www.seleniumhq.org/)
 * [appium](http://appium.io/)
 * [istanbul](http://gotwarlost.github.io/istanbul/)
+* [karma-coverage](https://github.com/karma-runner/karma-coverage)
+* [gulp-protractor-qa](https://www.npmjs.org/package/gulp-protractor-qa)
 * [browsersync](http://www.browsersync.io/)
+* [gulp-karma](https://github.com/karma-runner/gulp-karma) 
+เปลี่ยน
+> var karma = require('karma').server;
+เป็น
+> var karma = require('karma').run;
+* [gulp-protractor](https://github.com/mllrsohn/gulp-protractor)
+* [how-to-setup-node-js-project-in-eclipse](http://techprd.com/how-to-setup-node-js-project-in-eclipse/)
+
+##ลงโปรแกรม
+* [gulp-karma](https://github.com/lazd/gulp-karma)
 
 #Addition Info
 * [Google Web Fundamentals](https://developers.google.com/web/fundamentals/)
+
+##Wercker.com
+* [yml1](https://github.com/bencevans/wercker-node-pg-redis-selenium-firefox-xvfb/blob/master/wercker-box.yml)
+* [yml2](http://zephiransas.github.io/blog/2014/01/23/webkit-on-wercker/)
+* [yml3](http://qiita.com/kenzan100/items/b85e36c76017231e5934)
+
+##karma reporter
+* [karma-htmlfile-reporter](https://github.com/matthias-schuetz/karma-htmlfile-reporter)
+* [karma-json-reporter](https://github.com/douglasduteil/karma-json-reporter)
+* [karma-mocha-reporter](https://github.com/litixsoft/karma-mocha-reporter)
+* [karma-failed-reporter](https://github.com/jaapz/karma-failed-reporter)
