@@ -11,16 +11,16 @@
  * Unless you know what you're doing, you shouldn't change this file.
  * Check out the `tasks` directory instead.
  */
-var gulp = require('gulp'),
-	browserSync = require('browser-sync'),
-	plugins = require('gulp-load-plugins')({
+var gulp = require('gulp');
+var plugins = require('gulp-load-plugins')({
 						pattern: ['gulp-*', 'merge-*', 'run-*', 'main-*'], // the glob to search for
 						replaceString: /\bgulp[\-.]|run[\-.]|merge[\-.]|main[\-.]/, // what to remove from the name of the module when adding it to the context
                         			camelizePluginName: true, // if true, transforms hyphenated plugins names to camel case
 						lazy: true // whether the plugins should be lazy loaded on demand
-					}),
-	path = require('path'),
-	growl = false;
+					});
+var path = require('path');
+var growl = false;
+var Sails = require('sails');
 
 //module.exports = function(gulp) {
 
@@ -89,3 +89,46 @@ var gulp = require('gulp'),
 	invokeConfigFn(registerDefinitions);
 
 //};
+
+gulp.task('lift', function(done)  {
+  Sails.lift({
+    hooks: {
+      "grunt": false
+    }
+    // configuration for testing purposes
+  }, function(err, sails) {
+    if (err) return done(err);
+    // here you can load fixtures, etc.
+    done(err, sails);
+  });
+  
+});
+
+gulp.task('lower', function(done)  {
+  // here you can clear fixtures, etc.
+  Sails.lower(done);
+});
+
+gulp.task('karma', function(done)  {
+  var karma = require('karma');
+  karma.server.start({
+    configFile: __dirname + '/karma.conf.js',
+  }, done);  
+});
+
+gulp.task('tdd',['karma','lift'], function(done)  {
+  // place code for your default task here
+  //var runSequence = require('run-sequence');
+  //var del = require('del');
+  //var browserSync = require('browser-sync');
+  //var pagespeed = require('psi');
+  //var reload = browserSync.reload;
+
+  gulp.watch(['api/**/*.js'], ['lower','lift']);
+  gulp.watch(['api/**/*.{scss,css}'], ['lower','lift']);
+  gulp.watch(['api/**/*.html'], ['lower','lift']);
+  gulp.watch(['assets/js/**/*.js'], ['lower','lift']);
+  gulp.watch(['assets/styles/**/*.{scss,css}'], ['lower','lift']);
+  gulp.watch(['assets/templates/**/*.html'], ['lower','lift']);
+  gulp.watch(['assets/images/**/*'], ['lower','lift']);
+});

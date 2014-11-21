@@ -10,12 +10,15 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['mocha', 'requirejs'],
+    frameworks: ['mocha', 'chai'],
 
 
     // list of files / patterns to load in the browser
     files: [
-      {pattern: 'test/**/*Spec.js', included: false}
+    	"test/**/*Spec.js",
+      "assets/js/**/*.js",
+      "assets/styles/**/*.{scss,css}",
+      "assets/templates/**/*.htm*"
     ],
 
 
@@ -43,9 +46,12 @@ module.exports = function(config) {
         dir : 'coverage/'
     },
 
+    // web server hostname
+    hostname: 'localhost',
+
     // web server port
     port: 9876,
-
+    //port: 1337,
 
     // enable / disable colors in the output (reporters and logs)
     colors: true,
@@ -62,7 +68,8 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['PhantomJS', 'Chrome', 'Firefox', 'Safari', 'Opera', 'IE', 'ChromeCanary'],
+    // browsers: ['PhantomJS', 'Chrome', 'Firefox', 'Safari', 'Opera', 'IE', 'ChromeCanary'],
+    browsers: ['Firefox'],
 
 
     // Continuous Integration mode

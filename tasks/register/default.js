@@ -4,7 +4,6 @@ module.exports = function (gulp, plugins) {
 			'compileAssets',
 			['images', 'linkAssets'],
 			['watch:api', 'watch:assets'],
-			'dev',
 			cb
 		);
 	});
