@@ -81,6 +81,7 @@ a [Sails](http://sailsjs.org) application
 * [selenium](http://www.seleniumhq.org/)
 * [appium](http://appium.io/)
 * [istanbul](http://gotwarlost.github.io/istanbul/)
+* [karma-coverage](https://github.com/karma-runner/karma-coverage)
 * [gulp-protractor-qa](https://www.npmjs.org/package/gulp-protractor-qa)
 * [browsersync](http://www.browsersync.io/)
 * [gulp-karma](https://github.com/karma-runner/gulp-karma) 
