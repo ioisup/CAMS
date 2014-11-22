@@ -8,8 +8,8 @@ a [Sails](http://sailsjs.org) application
 
 - [Cordova](http://cordova.apache.org/)<img height="42" src="http://cordova.apache.org/images/cordova_bot.png"></img>
 - [AngularJS](https://angularjs.org/)<img height="42" src="https://angularjs.org/img/AngularJS-large.png"></img>
-- [Mongodb](http://www.mongodb.org/)<img height="42" src="http://media.mongodb.org/logo-mongodb-header.png"></img>
-- [Sails.js](http://sailsjs.org/)<img height="42" src="http://sailsjs.org/images/logo_sails.png"></img>
+- [Mongodb](http://www.mongodb.org/)<img height="42" src="http://media.mongodb.org/logo-mongodb-header.png"  color="#4C3A2C"></img>
+- [Sails.js](http://sailsjs.org/)<img height="42" src="http://sailsjs.org/images/logo_sails.png" color="#001C20"></img>
 
 #เครื่องมือ
 
