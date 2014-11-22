@@ -34,7 +34,7 @@ a [Sails](http://sailsjs.org) application
 
 ##[Eclipse](https://eclipse.org)
 1. [eclipse](https://www.eclipse.org/downloads/)
-2. [egit](http://www.eclipse.org/egit/)
+2. [egit](http://www.eclipse.org/egit/) ดู [tutorial](http://www.vogella.com/tutorials/EclipseGit/article.html)
 3. [Web Tools Platform](http://www.eclipse.org/webtools/)
 4. [Javascript Development Tools](https://eclipse.org/webtools/jsdt/)
 5. [LESS](http://www.normalesup.org/~simonet/soft/ow/eclipse-less.en.html)
